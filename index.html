@@ -25,7 +25,6 @@
                             <li><a href="arakkogreatring.html">The Great Ring</a></li>
                             <li><a href="arakkocircle.html">Circle Perilous</a></li>
                         </ul>
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <br>
@@ -40,7 +39,40 @@
                     <li class="basiclistitem">Became a home for the second generation of mutants for over 10000 years. </li>
                 </ul>
 
-                <main></main>
+                <main>
+                    <h2>Registration</h2>
+                    <h3>Once registration is submitted, Cerebro will identify your x-gene and submit your imprint to the National Mutant Database</h3>
+                    <form action="/contact" method="post">
+            <fieldset>
+                    <legend>Registration Form</legend>
+                    <label>Enter your full name</label><br>
+                    <input type="text" name="name"><br>
+                    <label>Enter your alias</label><br>
+                    <input type="text" name="alias"><br>
+                    <label>Describe your awakened mutant abilities</label><br>
+                    <textarea rows="5" cols="30"></textarea><br>
+                    <br>
+                    <label>Which nation are you registering to?</label><br>
+                    <input type="radio" name="nation" value="krakoa">Krakoa<input type="radio" name="nation" value="arakko">Arakko<br>
+                    <br>
+                    <label>Are you also interesting in joining a workforce or organization?</label>
+                    <br>
+                    <select id="whichteam" name="whichteam">
+                        <option value="none">No.</option>
+                        <option value="xmen">Yes, I would like to apply to the X-Men.</option>
+                        <option value="hellfireclub">Yes, I would like to apply to the Hellfire Club.</option>
+                        <option value="marauders">Yes, I would like to join the Marauders.</option>
+                        <option value="xforce">Yes, I would like to apply to X-Force.</option>
+                        <option value="sword">Yes, I would like to apply to S.W.O.R.D.</option>
+                        <option value="hellions">Yes, I would like to join the Hellions.</option>
+                        <option value="xfactor">Yes, I would like to apply to X-Factor.</option>
+                        <option value="xcorp">Yes, I would like to apply to X-Corp.</option>
+                    </select><br>
+                    <br>
+                    <input type="submit" value="Submit Registration">
+                </fieldset>
+        </form>
+                </main>
             </div>
 
 </body>
