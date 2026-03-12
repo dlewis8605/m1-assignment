@@ -2,35 +2,53 @@
     <html>
         <head>
             <title>Okkara, Inc.</title>
-            <img src="images/krakoascape.avif" width="800">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="styles.css">
         </head>
-        <body>
+        <body id="home">
             <div id="container">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="krakoa/krakoa.html">Krakoa</a></li>
-                        <ul>
-                            <li><a href="krakoahox.html">House of X</a></li>
+                <header>
+                    <div class="main-header">
+                        <nav class="navbar">
                             <ul>
-                                <li><a href="krakoahoxcradle.html">The Cradle (One)</a></li>
+                                <!-- Home Link -->
+                                <li><a href="index.html">Home</a></li>
+                            
+                                <!-- Krakoa Section -->
+                                <li class="hassubnav">
+                                    <a href="krakoa/krakoa.html">Krakoa</a>
+                                    <ul class="subnav">
+                                        <li class="hassubnav">
+                                            <a href="krakoahox.html">House of X</a>
+                                            <ul class="subnav">
+                                                <li><a href="krakoahoxcradle.html">The Cradle (One)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="hassubnav">
+                                            <a href="krakoagrove.html">The Grove</a>
+                                            <ul class="subnav">
+                                                <li><a href="krakoagrovequietcouncil.html">The Quiet Council</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            
+                                <!-- Arakko Section -->
+                                <li class="hassubnav">
+                                    <a href="arakko/arakko.html">Arakko</a>
+                                    <ul class="subnav">
+                                        <li><a href="arakkogreatring.html">The Great Ring</a></li>
+                                        <li><a href="arakkocircle.html">Circle Perilous</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                            <li><a href="krakoagrove.html">The Grove</a></li>
-                            <ul>
-                                <li><a href="krakoagrovequietcouncil.html">The Quiet Council</a></li>
-                            </ul>
-                        </ul>
-                        <li><a href="arakko/arakko.html">Arakko</a></li>
-                        <ul>
-                            <li><a href="arakkogreatring.html">The Great Ring</a></li>
-                            <li><a href="arakkocircle.html">Circle Perilous</a></li>
-                        </ul>
-                    </ul>
-                </nav>
+                        </nav>
+                    </div>
+                </header>
                 <br>
                 <br>
                 <h1>Welcome to Okkara!</h1>
-                <p><img src="images/nightcrawler.jpg" width="50"> “When you wake from this earthly slumber, my friend, look for me. I will be there, waiting for you, radiant and with open arms.”</p>
+                <p class="quote"><img class="mutantthumb" src="images/nightcrawler.jpg"> “When you wake from this earthly slumber, my friend, look for me. I will be there, waiting for you, radiant and with open arms.”</p>
                 <h3>About Okkara:</h3>
                 <ul>
                     <li class="basiclistitem">Was a large sentient island in the South Pacific that began life as the Enriched (mutant) named Grove from the forgotten Proterozoic Era civilization, Threshold.</li>
